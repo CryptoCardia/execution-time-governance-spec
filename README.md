@@ -52,7 +52,8 @@ It defines interoperable artifacts, verification rules, error codes, test vector
 - Threat model: 	hreat-model/threat-model.md
 - Mitigations: 	hreat-model/mitigations.md
 - Test vectors: 	est-vectors/
-- Reference verifier (TypeScript): eference/typescript-verifier/
+- Reference verifier (TypeScript): 
+eference/typescript-verifier/
 
 ## Versioning
 
@@ -61,6 +62,19 @@ Backward-incompatible changes require a new major version.
 
 See: governance/versioning.md
 
+## Status
+
+ETG v1.0.0 is stable.
+
+Includes:
+- Deterministic canonical test vectors
+- Reference TypeScript verifier
+- ed25519 signature verification
+- Explicit error model
+- Replay, mutation, and expiry validation cases
+
+Backward-incompatible changes will require ETG v2.
+
 ## License
 
 Apache 2.0. See LICENSE and NOTICE.
@@ -68,3 +82,4 @@ Apache 2.0. See LICENSE and NOTICE.
 ## Attribution
 
 CryptoCardia - Transaction-Governed Security
+
