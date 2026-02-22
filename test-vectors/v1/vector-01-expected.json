@@ -1,4 +1,5 @@
 ﻿{
-  ""result"": ""ETG_OK"",
-  ""notes"": ""If signature alg is none, verifier treats signature as skipped in reference mode.""
+  "result": "ETG_OK",
+  "notes": "If signature alg is none, verifier treats signature as skipped in reference mode."
 }
+

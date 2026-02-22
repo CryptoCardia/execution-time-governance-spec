@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "etg-v1-verifier",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,8 @@
     "start": "node dist/index.js"
   },
   "devDependencies": {
+    "@types/node": "^25.3.0",
     "typescript": "^5.5.0"
   }
 }
+

@@ -1,28 +1,30 @@
 ﻿{
-  ""envelope"": {
-    ""spec_version"": ""etg-1.0"",
-    ""envelope_id"": ""env_01"",
-    ""domain"": ""cryptocardia"",
-    ""audience"": ""executor_demo"",
-    ""rail"": ""demo_rail"",
-    ""intent"": { ""op"": ""transfer"", ""asset"": ""USD"", ""to"": ""acct_123"" },
-    ""exec_params"": { ""amount"": ""100.00"", ""memo"": ""demo"" },
-    ""policy_hash"": ""sha256:POLICY_ABC"",
-    ""t_issue"": 1700000000000,
-    ""t_expiry"": 1700000060000,
-    ""nonce"": ""nonce_01""
+  "envelope": {
+    "spec_version": "etg-1.0",
+    "envelope_id": "env_01",
+    "domain": "cryptocardia",
+    "audience": "executor_demo",
+    "rail": "demo_rail",
+    "intent": { "op": "transfer", "asset": "USD", "to": "acct_123" },
+    "exec_params": { "amount": "100.00", "memo": "demo" },
+    "policy_hash": "sha256:POLICY_ABC",
+    "t_issue": 1700000000000,
+    "t_expiry": 1700000060000,
+    "nonce": "nonce_01"
   },
-  ""authorization"": {
-    ""spec_version"": ""etg-1.0"",
-    ""ao_id"": ""ao_01"",
-    ""envelope_hash"": ""sha256:REPLACE_WITH_REAL_HASH_IN_REFERENCE_VERIFIER_OUTPUT"",
-    ""policy_hash"": ""sha256:POLICY_ABC"",
-    ""authority"": { ""authority_id"": ""auth_demo"", ""mode"": ""permit"" },
-    ""t_issue"": 1700000000000,
-    ""t_expiry"": 1700000060000,
-    ""sig"": { ""alg"": ""none"", ""kid"": ""demo"", ""value"": """" },
-    ""domain"": ""cryptocardia"",
-    ""audience"": ""executor_demo"",
-    ""rail"": ""demo_rail""
+  "authorization": {
+    "spec_version": "etg-1.0",
+    "ao_id": "ao_01",
+    "envelope_hash": "sha256:REPLACE_WITH_REAL_HASH_IN_REFERENCE_VERIFIER_OUTPUT",
+    "policy_hash": "sha256:POLICY_ABC",
+    "authority": { "authority_id": "auth_demo", "mode": "permit" },
+    "t_issue": 1700000000000,
+    "t_expiry": 1700000060000,
+    "sig": { "alg": "none", "kid": "demo", "value": "" },
+    "domain": "cryptocardia",
+    "audience": "executor_demo",
+    "rail": "demo_rail"
   }
 }
+
+

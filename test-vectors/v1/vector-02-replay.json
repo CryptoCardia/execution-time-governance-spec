@@ -1,5 +1,6 @@
 ﻿{
-  ""description"": ""Same envelope_id/nonce reused should be rejected by a stateful executor replay registry."",
-  ""envelope_id"": ""env_01"",
-  ""nonce"": ""nonce_01""
+  "description": "Same envelope_id/nonce reused should be rejected by a stateful executor replay registry.",
+  "envelope_id": "env_01",
+  "nonce": "nonce_01"
 }
+
