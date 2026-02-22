@@ -5,25 +5,24 @@
     "domain": "cryptocardia",
     "audience": "executor_demo",
     "rail": "demo_rail",
-    "intent": { "op": "transfer", "asset": "USD", "to": "acct_123" },
+    "intent": { "op": "transfer", "asset": "USD", "to": "acct_333" },
     "exec_params": { "amount": "999.99", "memo": "mutated" },
     "policy_hash": "sha256:POLICY_ABC",
-    "t_issue": 1700000000000,
-    "t_expiry": 1700000060000,
+    "t_issue": 1999999990000,
+    "t_expiry": 2000000050000,
     "nonce": "nonce_03"
   },
   "authorization": {
     "spec_version": "etg-1.0",
     "ao_id": "ao_03",
-    "envelope_hash": "sha256:HASH_OF_ORIGINAL_ENVELOPE_NOT_MUTATED",
+    "envelope_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
     "policy_hash": "sha256:POLICY_ABC",
     "authority": { "authority_id": "auth_demo", "mode": "permit" },
-    "t_issue": 1700000000000,
-    "t_expiry": 1700000060000,
+    "t_issue": 1999999990000,
+    "t_expiry": 2000000050000,
     "sig": { "alg": "none", "kid": "demo", "value": "" },
     "domain": "cryptocardia",
     "audience": "executor_demo",
     "rail": "demo_rail"
   }
 }
-

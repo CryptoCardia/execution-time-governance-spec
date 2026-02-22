@@ -1,0 +1,5 @@
+
+# verifier secrets
+reference/typescript-verifier/private.pem
+reference/typescript-verifier/public.pem
+

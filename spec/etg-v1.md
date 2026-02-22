@@ -24,40 +24,41 @@ An Envelope MUST include:
 - spec_version: string (MUST be "etg-1.0")
 - envelope_id: unique identifier (string)
 - domain: issuer context identifier (string)
-- udience: intended executor identity (string)
-- ail: target rail identifier (string)
+- audience: intended executor identity (string)
+- 
+rail: target rail identifier (string)
 - intent: structured intent object
 - exec_params: structured execution parameters object
 - policy_hash: hash of active policy identity (string)
 - 	_issue: issuance time (unix ms)
 - 	_expiry: expiry time (unix ms)
 - 
-once: unique per envelope (string)
+nonce: unique per envelope (string)
 
 An Envelope MUST be canonicalized prior to hashing and signing.
 
 ## 5. Authorization Object (AO) (normative)
 An AO MUST include:
 - spec_version: string (MUST be "etg-1.0")
-- o_id: unique identifier (string)
+- ao_id: unique identifier (string)
 - envelope_hash: hash of the canonicalized Envelope (string)
 - policy_hash: MUST match the Envelope policy_hash
-- uthority: structured authority descriptor (object)
+- authority: structured authority descriptor (object)
 - 	_issue: MUST equal Envelope 	_issue
 - 	_expiry: MUST equal Envelope 	_expiry
 - sig: signature object
 
 The AO signature MUST be computed over a canonical signing payload that includes:
 - spec_version
-- o_id
+- ao_id
 - envelope_hash
 - policy_hash
-- uthority
+- authority
 - 	_issue
 - 	_expiry
 - domain
-- udience
-- ail
+- audience
+- rail
 
 ## 6. Verification (normative)
 An executor MUST:
@@ -70,7 +71,7 @@ An executor MUST:
    - current_time MUST be <= 	_expiry
 6. Verify AO signature
 7. Enforce replay semantics for envelope_id and/or 
-once
+nonce
 
 If any step fails, executor MUST refuse execution.
 

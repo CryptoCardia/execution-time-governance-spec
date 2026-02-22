@@ -1,0 +1,5 @@
+{
+  "demo-ed25519": {
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfxtpJ6g2hjvbyrUHj8WrIA5wWX2IecbnSBS9rcOhpmc=\n-----END PUBLIC KEY-----\n"
+  }
+}
