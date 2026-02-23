@@ -79,7 +79,11 @@ Backward-incompatible changes will require ETG v2.
 
 Apache 2.0. See LICENSE and NOTICE.
 
+Founder: Jory Sabourin (@CryptoCardiaHQ)  
+Project: cryptocardia.com
+
 ## Attribution
 
 CryptoCardia - Transaction-Governed Security
+
 
