@@ -42,16 +42,16 @@ It defines interoperable artifacts, verification rules, error codes, test vector
 
 ## Category docs
 
-- Pre-Settlement Control Planes: 	axonomy/pre-settlement-control-planes.md
+- Pre-Settlement Control Planes: 	taxonomy/pre-settlement-control-planes.md
 - Transaction-Governed Security (TGS): 	axonomy/transaction-governed-security.md
-- Glossary: 	axonomy/glossary.md
-- Comparisons: 	axonomy/comparisons.md
+- Glossary: 	taxonomy/glossary.md
+- Comparisons: 	taxonomy/comparisons.md
 
 ## Threat model and test vectors
 
-- Threat model: 	hreat-model/threat-model.md
-- Mitigations: 	hreat-model/mitigations.md
-- Test vectors: 	est-vectors/
+- Threat model: 	threat-model/threat-model.md
+- Mitigations: 	threat-model/mitigations.md
+- Test vectors: 	test-vectors/
 - Reference verifier (TypeScript): 
 eference/typescript-verifier/
 
@@ -85,5 +85,6 @@ Project: cryptocardia.com
 ## Attribution
 
 CryptoCardia - Transaction-Governed Security
+
 
 
