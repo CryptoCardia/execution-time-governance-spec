@@ -53,7 +53,7 @@ It defines interoperable artifacts, verification rules, error codes, test vector
 - Mitigations: 	threat-model/mitigations.md
 - Test vectors: 	test-vectors/
 - Reference verifier (TypeScript): 
-eference/typescript-verifier/
+  reference/typescript-verifier/
 
 ## Versioning
 
@@ -85,6 +85,7 @@ Project: cryptocardia.com
 ## Attribution
 
 CryptoCardia - Transaction-Governed Security
+
 
 
 
